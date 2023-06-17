@@ -18,7 +18,7 @@ const SearchListing = () => {
       setIsLoading(true);
 
       // Replace this with your actual data fetching logic
-      const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=1000');
+      const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
       const jsonData = await response.json();
       setData(jsonData.results);
       console.log(data)
