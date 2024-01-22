@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to={"/"} style={{textDecoration: "none"}}>
         <div className="nav__logo">
           <img src={logo} alt="logo" />
-          <p>Pokédex</p>
+          <p>Poké-Search</p>
         </div>
         </Link>
         <ul className="nav__list">
